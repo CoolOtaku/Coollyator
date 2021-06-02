@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bacrau"
+    tools:context=".Main4Activity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="115dp"
+                    android:layout_height="30dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="@+id/chas"
+                    app:layout_constraintStart_toStartOf="@+id/chas"
+                    app:layout_constraintTop_toBottomOf="@+id/chas" />
+
+                <Button
+                    android:id="@+id/zvich"
+                    android:layout_width="115dp"
+                    android:layout_height="115dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/math"
+                    app:layout_constraintEnd_toStartOf="@+id/chas"
+                    app:layout_constraintTop_toTopOf="@+id/chas" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="134.3dp"
+                    android:layout_height="30dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="@+id/rozrab"
+                    app:layout_constraintStart_toStartOf="@+id/rozrab"
+                    app:layout_constraintTop_toBottomOf="@+id/rozrab" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="115dp"
+                    android:layout_height="30dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="@+id/zvich"
+                    app:layout_constraintStart_toStartOf="@+id/zvich"
+                    app:layout_constraintTop_toBottomOf="@+id/zvich" />
+
+                <Button
+                    android:id="@+id/rozrab"
+                    android:layout_width="115dp"
+                    android:layout_height="115dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/chel"
+                    app:layout_constraintStart_toEndOf="@+id/chas"
+                    app:layout_constraintTop_toTopOf="@+id/chas" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="115dp"
+                    android:layout_height="60dp"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20dp"
+                    app:layout_constraintEnd_toEndOf="@+id/bwb"
+                    app:layout_constraintStart_toStartOf="@+id/bwb"
+                    app:layout_constraintTop_toBottomOf="@+id/bwb" />
+
+                <Button
+                    android:id="@+id/chas"
+                    android:layout_width="115dp"
+                    android:layout_height="115dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/clock"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/bwb"
+                    android:layout_width="115dp"
+                    android:layout_height="115dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/large"
+                    app:layout_constraintStart_toStartOf="@+id/zvich"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6" />
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

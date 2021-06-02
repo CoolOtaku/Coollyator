@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Coollyator</string>
+    <string name="rr">Recent result</string>
+    <string name="clear">Clear</string>
+    <string name="back">Back</string>
+    <string name="error">Error</string>
+
+    <string name="temporal">Temporal</string>
+    <string name="usuals">Usuals</string>
+    <string name="developers">Developers</string>
+    <string name="exchange_rate">Exchange rate</string>
+
+    <string name="year">Year</string>
+    <string name="month">Month</string>
+    <string name="day">Day</string>
+    <string name="hour">Hour</string>
+    <string name="minute">Minute</string>
+    <string name="second">Second</string>
+
+    <string name="nazar">Fedorov Nazar Petrovich. Java programmer. Developed a functional code. Instagram: @coll_otaku</string>
+    <string name="misha">Solodzhuk Mikhail Mikhailovich. C ++ Programmer. Developed the program design. Instagram: @miy_sdk</string>
+</resources>

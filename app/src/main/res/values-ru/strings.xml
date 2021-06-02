@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Coollyator</string>
+    <string name="rr">Последний результат</string>
+    <string name="clear">Очыстить</string>
+    <string name="back">Назад</string>
+    <string name="error">Ошыбка</string>
+
+    <string name="temporal">Часовой</string>
+    <string name="usuals">Обычный</string>
+    <string name="developers">Разработчики</string>
+    <string name="exchange_rate">Курс валют</string>
+
+    <string name="year">Год</string>
+    <string name="month">Месяц</string>
+    <string name="day">День</string>
+    <string name="hour">Час</string>
+    <string name="minute">Минута</string>
+    <string name="second">Секунда</string>
+
+    <string name="nazar">Федоров Назар Петрович. Java программист. Разработал код функционала. Instagram: @coll_otaku</string>
+    <string name="misha">Солоджук Михаил Михайлович. С ++ Программист. Разработал дизайн программы. Instagram: @miy_sdk</string>
+</resources>
