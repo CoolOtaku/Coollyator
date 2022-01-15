@@ -1,6 +1,6 @@
 # Coollyator
 
-<p align="center"><img width="128" height="128" src="app/src/main/ic_launcher-web.png" /></p>
+<p align="center"><img width="128" height="128" src="app/src/main/res/drawable/ikonka.png" /></p>
 
 ## EN
 
