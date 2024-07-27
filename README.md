@@ -4,13 +4,13 @@
 ## Description
 <b>EN:</b>
 
-This is my second project created in AndroidStudio (Java).
+This is my second project created in **AndroidStudio (Java)**.
 
 The project was created as an educational one. To create a simple calculator on **AndroidStudio**.
 
 <b>UA:</b>
 
-Це мій другий проект, створений в AndroidStudio (Java).
+Це мій другий проект, створений в **AndroidStudio (Java)**.
 
 Проект було створено як учбовий. Для створення простого калькулятора на **AndroidStudio**.
 
@@ -28,12 +28,13 @@ The project was created as an educational one. To create a simple calculator on 
 <b>EN:</b>
 - Calculations of simple expressions
 - Time calculations
-- Using WebView to open links
+- Using **WebView** to open links
 
 <b>UA:</b>
 - Обчислення простих виразів
 - Розрахунок часу
-- Використання WebView для відкриття посилань
+- Використання **WebView** для відкриття посилань
+
 #
 ## License
 ```
